@@ -48,4 +48,4 @@ In each projects folder, there are `MyTemplate.vstemplate` files. They are the t
 
 If Xamarin.Forms will be updated, you can just change the version numbers of each `MyTemplate.vstemplate` files
 
-There are some macros in the template files. Please see [MSDN document](https://msdn.microsoft.com/ja-jp/library/eehb4faa.aspx) for each meaning.
+There are some macros in the template files. Please see [Microsoft document](https://docs.microsoft.com/ja-jp/visualstudio/ide/template-parameters) for each meaning.
