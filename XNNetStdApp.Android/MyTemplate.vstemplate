@@ -1,20 +1,20 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>XNNetStdApp.Droid</Name>
-    <Description>Xamarin Native template using PCL core</Description>
+    <Name>XNNetStdApp.Android</Name>
+    <Description>Xamarin Native template using NetStandard core</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>XNNetStdApp.Droid</DefaultName>
+    <DefaultName>XNNetStdApp.Android</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="XNNetStdApp.Droid.csproj" File="XNNetStdApp.Droid.csproj" ReplaceParameters="true">
+    <Project TargetFileName="XNNetStdApp.Android.csproj" File="XNNetStdApp.Android.csproj" ReplaceParameters="true">
       <Folder Name="Assets" TargetFolderName="Assets">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
       </Folder>
