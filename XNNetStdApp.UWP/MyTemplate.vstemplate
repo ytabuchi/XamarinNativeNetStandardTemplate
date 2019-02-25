@@ -10,6 +10,7 @@
     <DefaultName>XNNetStdApp.UWP</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
+    <CreateInPlace>true</CreateInPlace>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
@@ -33,7 +34,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Default.rd.xml">Default.rd.xml</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="$safeprojectname$_TemporaryKey.pfx" BlendDoNotCreate="true">XNNetStdApp.UWP_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="$ext_safeprojectname$_TemporaryKey.pfx" BlendDoNotCreate="true">Application_TemporaryKey.pfx</ProjectItem>
     </Project>
   </TemplateContent>
   <WizardExtension>

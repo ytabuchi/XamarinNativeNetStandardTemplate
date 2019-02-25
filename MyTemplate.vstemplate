@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
-    <Name>Xamarin Native App (JXUG) (.NET Standard 1.4)</Name>
-    <Description>Xamarin Native app template using .NET Standard 1.4</Description>
+    <Name>Xamarin Native App (JXUG) (.NET Standard 2.0)</Name>
+    <Description>Xamarin Native app template using .NET Standard 2.0</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
     <DefaultName>XNNetStdApp</DefaultName>
@@ -12,8 +12,8 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
         XNNetStdApp\MyTemplate.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
-        XNNetStdApp.Droid\MyTemplate.vstemplate
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Android" CopyParameters="true">
+        XNNetStdApp.Android\MyTemplate.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
         XNNetStdApp.iOS\MyTemplate.vstemplate
